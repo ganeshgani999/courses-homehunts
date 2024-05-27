@@ -1,0 +1,123 @@
+.placement-section {
+    text-align: center;
+}
+.placement-section h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.placement-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.placement-card {
+    width: 25vw;
+    background-color: #1CACF4;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.placement-card img {
+    height: 200px;
+    width: 200px;
+}
+.course-details {
+    background-color: #ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 30px;
+    padding-top: 15px;
+    height: 100%;
+}
+.course-details div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+
+}
+.course-details div img {
+    height: 20px;
+    width: 20px;
+}
+.course-details div p {
+    font-size: 17px;
+    font-weight: 500;
+}
+.know-more-button {
+    height: 30px;
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: lightgray;
+}
+.internship-section {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.internship-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.internship-card {
+    width: 25vw;
+    border: 2px solid #1CACF4;
+    padding-top: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.internship-card img {
+    height: 120px;
+    width: 120px;
+}
+.internship-card-details {
+    background-color: #1CACF4;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #ffffff;
+    font-size: 18px;
+}
+.internship-card-details button {
+    height: 30px;
+    width: 90%;
+    background-color: gray;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+}
+.students {
+    padding: 20px;
+}
+.students-container {
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    height: 60vh;
+}
+.students-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 25%;
+    text-align: center;
+    height: 50vh;
+    padding: 10px;
+    font-size: 18px;
+}
+.students-card img {
+    height: 90px;
+    width: 90px;
+}

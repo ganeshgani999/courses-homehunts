@@ -1,0 +1,104 @@
+/* Why Choose Us Section */
+.main-container {
+    height: 75vh;
+    padding-top: 20px;
+
+}
+.main-container h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.choose-section {
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 20%;
+
+}
+.choose-section div {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.choose-section div img {
+    height: 150px;
+    width: 150px;
+}
+.choose-section div p {
+    font-size: 18px;
+}
+
+.super-charge-container {
+    padding: 40px;
+    margin-top: 0px;
+}
+
+.super-charge-heading {
+    margin-left: 80px;
+}
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.super-charge-card {
+    width: 50%vw;
+    height: 40vh;
+    background-color: #1CACF4;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: #ffffff;
+}
+.card-img {
+    width: 23vw;
+    height: 25vh;
+}
+.card-img-conatiner {
+    background-image: url(../assets/Ellipse\ 1.png);
+    background-size: cover;
+    height: 30vh;
+    width: 30vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.button {
+    height: 40px;
+    width: 110px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.job-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.job-images img {
+    height: 70px;
+    width: 190px;
+}
+.job-heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+.job-conatiner {
+    margin-bottom: 50px;
+}
